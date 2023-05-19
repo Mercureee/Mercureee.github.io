@@ -1,0 +1,121 @@
+/* Homepage CSS */
+.home{
+    background: lightblue;
+}
+/* Image on home */
+.img-home{
+    border: 2px solid #555;
+    float: left;
+    width: 40%;
+    height: auto;
+}
+/* Description on homepage */
+.about-me {
+    font-size: 18px;
+    width: 50%;
+    height: auto;
+    float: right;
+    border: 1px solid #555;
+    text-align: justify;
+    padding: 10px;
+}
+/* Instagram link */
+.instagram{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.instagram:hover{
+    color: red;
+}
+/* Button and submit button */
+form{
+    width: 500px;
+    height: auto;
+    float: right;
+}
+/* Navbar */
+nav{
+    background: white;
+}
+/* Size of each link */
+.nav-item{
+    font-size: 20px;
+}
+/* Size of homepage link */
+.navbar-brand{
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Carousel */
+.carousel{
+    width:500px;
+    height:auto;
+    margin: auto;
+}
+/* Rust page */
+.rust-body{
+    background: black;
+}
+.rust-header{
+    color: red;
+    font-family: Impact;
+    letter-spacing: 3px;
+}
+/* League page */
+.league{
+    background: #11b8b2;
+}
+.league-header{
+    color: Gold;
+    font-family: Apple Chancery;
+}
+/* General styling for pages */
+.game-description{
+    text-align: center;
+    border: 1px solid #555;
+    border-color: white;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+h1{
+    font-size: 80px;
+    text-shadow: 3px 3px 1px black;
+}
+/* Indie page */
+/* Background of Indie */
+.Indie-body{
+    background: #f5c7c4
+}
+.Indie-header{
+    color: white;
+    font-family: Oldtown;
+}
+/* Images for indie */
+.row{
+    display: flex;
+}
+.img-indie{
+    width:33%;
+    height:auto;
+    padding: 5px;
+}
+/* Descriptions for indie */
+.indie-description-container{
+    display: flex;
+}
+/* Got information from here https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+.indie-description{
+    text-align: justify;
+    width:33%;
+    border: 1px solid #555;
+    border-color: white;
+    color: white;
+    padding: 5px;
+}

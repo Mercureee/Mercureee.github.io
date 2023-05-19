@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Sets the title of the webpage to Indie -->
+        <title>Indie</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body class="Indie-body">
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <!-- Following code from https://getbootstrap.com/docs/5.3/components/navbar/ -->
+                    <!-- Makes a navbar  -->
+                    <nav class="navbar navbar-expand-lg">
+                      <div class="container-fluid">
+                      <!-- Creates a link called Home to bring you back to the homepage -->
+                        <a class="navbar-brand" aria-current="page" href="index.html">Home</a>
+                      <!-- Button for collapsing the navbar -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- Collapses the navbar -->
+                        <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav justify-content-between w-50">
+                            <!-- Navbar links to the other pages -->
+                            <li class="nav-item">
+                              <a class="nav-link" href="rust.html">Rust</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="league.html">League</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="indie.html">Indie</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </nav>
+                  <!-- Makes a header for the page called Indie Games -->
+                    <h1 class="Indie-header">Indie Games</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Creates a div to contain the images -->
+        <div class="row">
+          <!-- Image url https://www.nintendo.com/store/products/stardew-valley-switch/ -->
+          <!-- Images for the different indie games -->
+          <img src="/media/stardew.avif" class="img-indie" alt="Stardew">
+          <!-- Image url https://store.steampowered.com/app/1229380/Everhood/ -->
+          <img src="/media/everhood.jpeg" class="img-indie" alt="Everhood">
+          <!-- Image url https://store.epicgames.com/en-US/p/moonlighter -->
+          <img src="/media/moonlighter.jpeg" class="img-indie" alt="Moonlighter">
+        </div>
+        <!-- Creates a description for each of the games and contains it in a div -->
+        <div class="indie-description-container">
+          <p class="indie-description"> Stardew valley is the first game I think of when thinking of indie games. Stardew valley is one of the most laid back games I've played because the game doesn't direct you anywhere. You are free to do whatever you want and progress at however pace you want. My favorite thing to do in stardew is fishing. </p>
+          <p class="indie-description"> Everhood has been one of the best rythm games I've ever played. The story and setting captures the feel of the different songs perfectly and the gameplay is engaging as well. I loved the different type of characters you encountered as well as the music that each person played. Every song felt unique and was difficult enough to be a challenge but not exactly easy.  </p>
+          <p class="indie-description"> Moonlighter is one of my favorite rougelikes of all time. Each run through the dungeon feels unique and the gameplay feels smooth. I really enjoyed the fact that you could sell all the monster drops and it made you priotize finding certain monsters while also encouraging you to explore more rooms. The different upgrades would be able to help you progress naturally even if you were struggling.</p>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
